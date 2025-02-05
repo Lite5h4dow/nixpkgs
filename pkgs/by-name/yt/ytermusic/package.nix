@@ -19,10 +19,6 @@ rustPlatform.buildRustPackage rec {
     hash = "sha256-nu/vedQNs5TgCG1v5qwwDTnFTyXCS2KnLVrnEhCtzCs=";
   };
 
-  cargoLock = {
-    lockFile = ./Cargo.lock;
-  };
-
   doCheck = true;
 
   cargoBuildType = "release";
